@@ -36,4 +36,6 @@ Para verificar a configuração deu certo digite:
 18 - Feito o commit agora é hora de enviar para a nuvem, utilize o comando 'git push' e siga as instruções:
 	- Ao abrir uma janela clique no botão azul com a mensagem 'sign in'
 	- Após isso vai abrir um navegador verifique as intruções e prossiga com as autorizações.
-	- Atualize o seu navegador na página de repositório para verificar se as alterações foram enviadas. 
+	- Atualize o seu navegador na página de repositório para verificar se as alterações foram enviadas.
+
+	Testando alterações!!!!! 
