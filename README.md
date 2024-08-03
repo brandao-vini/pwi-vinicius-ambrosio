@@ -38,4 +38,4 @@ Para verificar a configuração deu certo digite:
 	- Após isso vai abrir um navegador verifique as intruções e prossiga com as autorizações.
 	- Atualize o seu navegador na página de repositório para verificar se as alterações foram enviadas.
 
-	Testando alterações!!!!! 
+	!!!!!!!TESTANDO ALTERAÇÕES!!!!!!!!! 
