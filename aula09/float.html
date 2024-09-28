@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style/externofloat.css">
+    </head>
+    <body>
+
+        <h2>Float Right</h2>
+
+        <p>In this example, the image will float to the right in the paragraph, and the
+            text in the paragraph will wrap around the image.</p>
+
+        <p><img
+            src="./img/pineapple.jpg"
+            alt="Pineapple"
+            style="width:170px;height:170px;margin-left:15px;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet,
+            nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula
+            venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae
+            massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis
+            sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut
+            hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum
+            dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec
+            vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non
+            fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris
+            quis diam velit.</p>
+
+        <br>
+
+        <div class="div1">Div 1</div>
+        <div class="div2">Div 2</div>
+        <div class="div3">Div 3</div>
+
+        <br>
+
+        <h2>Grid of Boxes</h2>
+        <p>Float boxes side by side:</p>
+
+        <div class="clearfix">
+            <div class="box" style="background-color:#581414">
+                <p>Boa noite, pessoal. Tudo bem?</p>
+            </div>
+            <div class="box" style="background-color:#1d2eae">
+                <p>Bem vindos ao Camargo!</p>
+            </div>
+            <div class="box" style="background-color:#cb6bc5">
+                <p>Tenham uma ótima aula.</p>
+            </div>
+        </div>
+
+        <p>
+            <strong>Note:</strong>
+            Here, we use the clearfix hack to take care of the layout flow. We also use the
+            box-sizing property to make sure that the box doesn't break due to extra
+            padding. Try to remove this code to see the effect.</p>
+
+        <br>
+
+        <h2>Equal Height Boxes</h2>
+        <p>Floating boxes with equal heights:</p>
+
+        <div class="clearfix">
+            <div class="box" style="background-color:#e2b646">
+                <h2>Caixa 1</h2>
+                <p>O joão é um queridoooo, 💕💕, some content</p>
+            </div>
+            <div class="box" style="background-color:#521144">
+                <h2>Caixa 2</h2>
+                <p>Algum conteúdo, some content, some content</p>
+                <p>Some content, some content, some content</p>
+                <p>Some content, some content, some content</p>
+            </div>
+        </div>
+
+        <p>This example not very flexible. It is ok to use CSS height if you can
+            guarantee that the boxes will always have the same amount of content in them,
+            but that's not always the case. If you try the example above on a mobile phone
+            (or resize the browser window), you will see that the second box's content will
+            be displayed outside of the box.</p>
+        <p>Go back to the tutorial and find another solution, if this is not what you want.</p>
+
+        <br>
+
+        <ul>
+            <li>
+                <a href="#home" class="active">Home</a>
+            </li>
+            <li>
+                <a href="#news">News</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+        </ul>
+
+        <br>
+
+        <div class="header">
+            <h1>Testeee</h1>
+        </div>
+
+        <div class="clearfix">
+            <div class="column menu">
+                <ul>
+                    <li>A luta</li>
+                    <li>A comida</li>
+                    <li>A ilha do futuro</li>
+                    <li>O frio</li>
+                </ul>
+            </div>
+
+            <div class="column content">
+                <h1>Sobre</h1>
+                <p>Chania is the capital of the Chania region on the island of Crete. The city
+                    can be divided in two parts, the old town and the modern city.</p>
+                <p>You will learn more about web layout and responsive web pages in a later
+                    chapter.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Feito por Viniii!!</p>
+        </div>
+
+    </body>
+</html>
