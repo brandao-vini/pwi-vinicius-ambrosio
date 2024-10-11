@@ -1,5 +1,5 @@
 body {
-    background: burlywood;
+    background: #09DB9E;
 }
 
 .nome {
@@ -9,24 +9,47 @@ body {
 
 .container {
     display: flex;
+    flex-direction: column;
 }
 
 img {
     width: 300px;
+    border: 5px solid #DBA409;
+    border-radius: 6px;
 }
 
-img, p, h1, h2, h3 {
-    display: inline-block;
+ h1, h2 {
+    border: 3px solid #09DB9E;
+    padding: 10px;
+    background-color: #DBA409;
+    border-radius: 7px;
 }
 
 .item {
     display: flex;
-    background-color: rgb(167, 150, 54);
-    border: 2px solid rgb(223, 118, 20);
+    background-color: #DBA409;
+    border: 3px solid #09DB9E;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px;
     padding: 10px;
+    flex-direction: column;
+    border-radius: 7px;
 }
 
+.cabecalho {
+    display: flex;
+}
+
+.linha {
+    display: flex;
+    background-color: #BF09DB;
+    border: 5px solid #DBA409;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
